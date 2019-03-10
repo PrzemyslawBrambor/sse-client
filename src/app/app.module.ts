@@ -2,17 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { ExchangeRateComponent } from './exchange-rate.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    ExchangeRateComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ExchangeRateComponent]
 })
 export class AppModule { }
